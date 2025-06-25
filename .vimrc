@@ -66,3 +66,7 @@ set encoding=utf-8
 set termencoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8,gbk,gb2312,gb18030,big5,latin1
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
