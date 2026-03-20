@@ -1,3 +1,4 @@
+alias ls='ls --color=auto'
 export PATH="/home/meteorsky/neovim/bin:$PATH"
 export LD_LIBRARY_PATH="/home/meteorsky/neovim/lib:$LD_LIBRARY_PATH"
 autoload -Uz compinit
