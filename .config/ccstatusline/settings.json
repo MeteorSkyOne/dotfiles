@@ -1,0 +1,81 @@
+{
+  "version": 3,
+  "lines": [
+    [
+      {
+        "id": "1",
+        "type": "model",
+        "color": "ansi256:183"
+      },
+      {
+        "id": "d286373d-055b-419e-a628-1660b7774528",
+        "type": "custom-text",
+        "customText": " "
+      },
+      {
+        "id": "ff2ae12e-a5d2-466a-8d00-e56d4d2a4339",
+        "type": "thinking-effort",
+        "color": "ansi256:111",
+        "rawValue": true
+      },
+      {
+        "id": "2",
+        "type": "separator"
+      },
+      {
+        "id": "3",
+        "type": "context-length",
+        "color": "ansi256:116",
+        "rawValue": false
+      },
+      {
+        "id": "95c654aa-b7bc-430c-8424-b59df5548a8f",
+        "type": "custom-text",
+        "customText": " "
+      },
+      {
+        "id": "0ea8feb5-31c1-4c10-bb0e-730e6d668c8e",
+        "type": "context-percentage-usable",
+        "color": "ansi256:150",
+        "rawValue": true
+      },
+      {
+        "id": "6",
+        "type": "separator"
+      },
+      {
+        "id": "930f106b-7b6e-485f-a99f-77bff5ec7c35",
+        "type": "session-usage",
+        "color": "ansi256:222"
+      },
+      {
+        "id": "4aceffe6-23c2-451f-af33-84545ab86e2d",
+        "type": "separator"
+      },
+      {
+        "id": "7c261fdc-85c3-42e1-866e-9e9302b11954",
+        "type": "weekly-usage",
+        "color": "ansi256:216"
+      }
+    ],
+    [],
+    []
+  ],
+  "flexMode": "full-minus-40",
+  "compactThreshold": 60,
+  "colorLevel": 2,
+  "inheritSeparatorColors": false,
+  "globalBold": false,
+  "powerline": {
+    "enabled": false,
+    "separators": [
+      ""
+    ],
+    "separatorInvertBackground": [
+      false
+    ],
+    "startCaps": [],
+    "endCaps": [],
+    "autoAlign": false
+  }
+}
