@@ -1,4 +1,7 @@
 alias ls='ls --color=auto'
+alias claudeyolo="claude --dangerously-skip-permissions"
+alias codexyolo="codex --dangerously-bypass-approvals-and-sandbox"
+
 export PATH="/home/meteorsky/neovim/bin:$PATH"
 export LD_LIBRARY_PATH="/home/meteorsky/neovim/lib:$LD_LIBRARY_PATH"
 autoload -Uz compinit
