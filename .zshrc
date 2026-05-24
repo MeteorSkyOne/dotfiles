@@ -16,5 +16,3 @@ source /usr/share/doc/fzf/examples/key-bindings.zsh
 source /usr/share/doc/fzf/examples/completion.zsh
 export PATH="$HOME/.local/bin:$PATH"
 
-export ANTHROPIC_BASE_URL="https://code.newcli.com/claude"
-export ANTHROPIC_AUTH_TOKEN="sk-ant-oat01-nDB2gr7YOY3z29RW3aGSdgixbuKfpXD2x4EaNTMYbg78g5SwU7UfdZfaHkKtkKGEfrCwASsP39V_EADNQGP_7oAfDYwxJAA"
