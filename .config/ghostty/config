@@ -1,0 +1,4 @@
+shell-integration-features = ssh-env,ssh-terminfo
+notify-on-command-finish = always
+notify-on-command-finish-action = no-bell,notify
+notify-on-command-finish-after = 30s
