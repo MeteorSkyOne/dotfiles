@@ -3,9 +3,9 @@
 add_newline = true
 continuation_prompt = "❯❯ "
 
-format = "$username$hostname$directory$git_branch$git_status$cmd_duration$character"
+format = "$username$hostname$directory$git_branch$git_status$character"
 
-right_format = """$python$nodejs$rust$golang$java$time"""
+right_format = """$status$cmd_duration$jobs$python$conda$nodejs$rust$golang$java$time"""
 
 [character]
 format = "$symbol "
@@ -50,9 +50,10 @@ deleted = "-"
 disabled = true
 
 [cmd_duration]
-format = "[$duration]($style) "
+format = " [$duration]($style)"
 style = "yellow"
-min_time = 2000
+min_time = 3000
+show_milliseconds = false
 
 [username]
 style_user = "bold yellow"
@@ -93,8 +94,13 @@ style = "bold red"
 threshold = 60
 style = "dimmed yellow"
 
+[status]
+disabled = false
+format = " [✘ $status]($style)"
+style = "bold red"
+
 [python]
-format = " [py $version]($style)"
+format = " [py $version( \\($virtualenv\\))]($style)"
 version_format = "${raw}"
 style = "yellow"
 symbol = ""
@@ -160,7 +166,8 @@ symbol = ""
 disabled = false
 
 [jobs]
-format = "[$number]($style) "
+format = " [bg $number]($style)"
+number_threshold = 1
 style = "bold blue"
 symbol = ""
 
@@ -175,6 +182,8 @@ unknown_msg = "?"
 [conda]
 symbol = ""
 format = " [conda $environment]($style)"
+style = "green"
+ignore_base = true
 
 [docker_context]
 symbol = ""
